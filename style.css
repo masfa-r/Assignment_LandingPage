@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-opt ul {
+    display: flex;
+    padding-right:20px;
+}
+.nav-opt ul li{
+    padding-right: 30px;
+    list-style: none;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(32, 8, 8);
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#home{
+    color: rgb(199, 41, 41);
+    border-bottom: 2px solid rgb(199, 41, 41);
+}
+
+.logo img{
+    height: 100px;
+    width: 180px;
+}
+.showcase{
+    background-image: url(pexels-alisha-mishra-1346341.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.about-section{
+    background-color: rgb(247, 241, 239);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10px;
+}
+.abt-img img{
+height: 400px;
+width: 550px;
+    
+}
+.abt-content{
+    padding:60px 100px;
+    width: 60%;
+    color: rgb(63, 13, 13);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+   
+}
+.abt-content h2{
+font-weight: bolder;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.abt-content h1{
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.2em;
+}
+.abt-content p{
+    line-height: 2em;
+    font-weight: bolder;
+}
+.abt-content h6{
+    text-align: right;
+    font-size: 14px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: rgb(95, 152, 226);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ft-sec{
+    width: 300px;
+}
+.footer .ft-sec{
+   align-items: center;
+    text-align: center; 
+}
+.footer .ft-sec i{
+    font-size: 40px;
+}
+.footer .ft-sec h3{
+    margin-top: 10px;
+    font-size: 25px;
+}
+@media screen and (max-width: 1400px){
+    .about-section{
+        background-color: rgb(247, 241, 239);
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    .abt-img img{
+    height: 300px;
+    width: 400px;
+        
+    }
+    .abt-content{
+        padding:30px;
+        width: 55%;
+       
+       
+    }
+
+}
+@media screen and (max-width: 768px){
+    .logo img{
+        height: 70px;
+        width: 100px;
+    }
+    .nav-opt ul li{
+        padding-right: 10px;
+       
+    }
+    ul li a{
+        font-size: 14px;
+    }
+    .about-section{
+        background-color: rgb(247, 241, 239);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    .abt-img img{
+    height: 400px;
+    width: 100%;
+        
+    }
+    .abt-content{
+        padding:20px;
+        width: 100%;
+       
+       
+    }
+    .abt-content h1{
+        font-size: 20px;
+    }
+    .abt-content h2{
+        font-size: 20px;
+    }
+    .footer{
+        justify-content: center;
+        padding: 20px;
+       
+    }
+    .ft-sec{
+        width: 100%;
+        padding:10px;
+    }
+    .footer .ft-sec{
+       align-items: center;
+        text-align: center; 
+    }
+    .footer .ft-sec i{
+        font-size: 25px;
+    }
+    .footer .ft-sec h3{
+        margin-top: 10px;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 450px){
+    .showcase{
+       
+        height: 40vh;
+        
+    }
+    .abt-img img{
+        height: 250px;
+        width: 100%;
+            
+        }
+}
